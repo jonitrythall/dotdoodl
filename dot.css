@@ -1,0 +1,13 @@
+body {
+  padding: .9em;
+}
+
+.logo {
+  width: 150px;
+}
+
+@media (min-width: 500px) {
+  body {
+    padding: 2em;
+  }
+}
