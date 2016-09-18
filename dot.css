@@ -1,4 +1,11 @@
 body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+
+}
+
+header,
+main {
   padding: .9em;
 }
 
@@ -6,8 +13,26 @@ body {
   width: 150px;
 }
 
+footer {
+  padding: .7em;
+  background: #8000FF;
+  color: white;
+  text-align: center;
+  font-size: .8em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;;
+}
+
 @media (min-width: 500px) {
-  body {
+  header,
+  main {
     padding: 2em;
   }
 }
