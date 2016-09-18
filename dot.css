@@ -13,9 +13,17 @@ main {
   width: 150px;
 }
 
+main {
+  display: flex;
+}
+
+h2 {
+  color: #4056F4;
+}
+
 footer {
   padding: .7em;
-  background: #8000FF;
+  background: #4056F4;
   color: white;
   text-align: center;
   font-size: .8em;
