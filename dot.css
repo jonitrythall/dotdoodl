@@ -16,6 +16,7 @@ main {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 section {
@@ -47,12 +48,13 @@ footer a:hover {
 
 @media (min-width: 800px) {
   section {
-    margin-right: 1em;
-    width: 33.333%;
+    width: 45%;
   }
+}
 
-  section:nth-child(3n) {
-    margin-right: 0;
+@media (min-width: 1000px) {
+  section {
+    width: 30%;
   }
 }
 
