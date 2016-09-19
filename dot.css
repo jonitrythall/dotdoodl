@@ -19,12 +19,8 @@ main {
 }
 
 section {
-  margin: 0 1em 0;
-  width: 33.333%;
-}
-
-section:nth-child(3n) {
-  margin-right: 0;
+  margin-bottom: 1em;
+  width: 100%;
 }
 
 h2 {
@@ -47,6 +43,17 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;;
+}
+
+@media (min-width: 800px) {
+  section {
+    margin-right: 1em;
+    width: 33.333%;
+  }
+
+  section:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 500px) {
