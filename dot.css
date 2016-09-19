@@ -16,12 +16,15 @@ main {
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 section {
-  margin-bottom: 1em;
-  width: 30%;
+  margin: 0 1em 0;
+  width: 33.333%;
+}
+
+section:nth-child(3n) {
+  margin-right: 0;
 }
 
 h2 {
