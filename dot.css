@@ -14,6 +14,7 @@ main {
 }
 
 main {
+  margin-top: 3em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,6 +31,7 @@ h2 {
 }
 
 footer {
+  margin-top: 3em;
   padding: .7em;
   background: #4056F4;
   color: white;
