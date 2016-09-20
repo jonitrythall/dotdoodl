@@ -4,8 +4,12 @@ body {
 
 }
 
-header,
-main {
+#rerun-button {
+  display: none;
+}
+
+.header,
+.main {
   padding: .9em;
 }
 
@@ -13,13 +17,13 @@ main {
   width: 150px;
 }
 
-main {
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-section {
+.section {
   margin-bottom: 1em;
   width: 100%;
 }
@@ -29,7 +33,7 @@ h2 {
   font-size: 1.2em;
 }
 
-footer {
+.footer {
   margin-top: 3em;
   padding: .7em;
   background: #4056F4;
@@ -38,30 +42,30 @@ footer {
   font-size: .8em;
 }
 
-footer a {
+.footer a {
   color: white;
   text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
   text-decoration: underline;;
 }
 
 @media (min-width: 800px) {
-  section {
+  .section {
     width: 45%;
   }
 }
 
 @media (min-width: 1000px) {
-  section {
+  .section {
     width: 30%;
   }
 }
 
 @media (min-width: 500px) {
-  header,
-  main {
+  .header,
+  .main {
     padding: 2em;
   }
 }
