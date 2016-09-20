@@ -12,26 +12,8 @@
   padding: .9em;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .logo {
   width: 150px;
-}
-
-.collection-link {
-  align-self: center;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: .8em;
-  color: #4056F4;
-}
-
-.collection-link:hover {
-  color: #8000FF;
 }
 
 .main {
@@ -47,6 +29,25 @@
 h2 {
   color: #4056F4;
   font-size: 1.2em;
+}
+
+.collection {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.collection-link {
+  padding: 10px 15px;
+  border: 2px solid #4056F4;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: .8em;
+  color: #4056F4;
+}
+
+.collection-link:hover {
+  color: #8000FF;
+  border-color: #8000FF;
 }
 
 .footer {
