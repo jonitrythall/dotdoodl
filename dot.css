@@ -1,7 +1,6 @@
-body {
+.site-body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-
 }
 
 #rerun-button {
@@ -24,7 +23,6 @@ body {
 }
 
 .section {
-  margin-bottom: 1em;
   width: 100%;
 }
 
