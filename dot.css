@@ -12,8 +12,26 @@
   padding: .9em;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .logo {
   width: 150px;
+}
+
+.collection-link {
+  align-self: center;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: .8em;
+  color: #4056F4;
+}
+
+.collection-link:hover {
+  color: #8000FF;
 }
 
 .main {
@@ -45,25 +63,24 @@ h2 {
   text-decoration: none;
 }
 
-.footer a:hover {
-  text-decoration: underline;;
+@media (min-width: 500px) {
+  .header,
+  .main {
+    padding: 2em;
+  }
 }
 
 @media (min-width: 800px) {
   .section {
     width: 45%;
   }
+  .collection-link {
+    font-size: .9em;
+  }
 }
 
 @media (min-width: 1000px) {
   .section {
     width: 30%;
-  }
-}
-
-@media (min-width: 500px) {
-  .header,
-  .main {
-    padding: 2em;
   }
 }
