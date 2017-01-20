@@ -12,17 +12,24 @@ body {
   padding: 1.3em;
 }
 
+.header {
+  background: #8000ff;
+  margin-bottom: 30px;
+}
+
 .logo {
   width: 150px;
 }
 
 main {
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-align: center;
+  line-height: 1.25;
 }
 
 a {
-  color: #6666ff;
+  color: #16c4bf;
+  text-decoration: none;
 }
 
 a:hover {
