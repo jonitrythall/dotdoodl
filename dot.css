@@ -3,6 +3,11 @@ body {
   color: #4056f4;
 }
 
+span {
+  display: block;
+  font-size: .5em;
+}
+
 .site-body {
   font-family: 'Lato', sans-serif;
 }
@@ -53,6 +58,11 @@ a:hover {
   font-family: 'Short Stack', cursive;
   border-color: #16c4bf;
   background: #16c4bf;
+}
+
+.adults {
+  pointer-events: none;
+  cursor: default;
 }
 
 .button-link:hover {
