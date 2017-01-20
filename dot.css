@@ -1,10 +1,15 @@
+body {
+  margin: 0;
+  color: #4056f4;
+}
+
 .site-body {
   font-family: 'Lato', sans-serif;
 }
 
 .header,
 .main {
-  padding: .9em;
+  padding: 1.3em;
 }
 
 .logo {
@@ -12,15 +17,26 @@
 }
 
 main {
-  font-size: 1.3em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a {
+  color: #6666ff;
+}
+
+a:hover {
+  color: #4056f4;
 }
 
 .button-link {
   display: block;
-  margin-top: 50px;
+  margin: 50px auto;
   text-align: center;
   padding: 10px 15px;
-  border: 2px solid blue;
+  color: white;
+  border: 2px solid #6666ff;
+  background: #6666ff;
   border-radius: 4px;
   max-width: 120px;
   text-decoration: none;
@@ -28,4 +44,58 @@ main {
 
 .kids {
   font-family: 'Short Stack', cursive;
+  border-color: #16c4bf;
+  background: #16c4bf;
+}
+
+.button-link:hover {
+  color: white;
+  border-color: #4056f4;
+  background: #4056f4;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background: #4056f4;
+}
+
+.contain-eyes {
+  margin: 0 auto;
+  padding: 20px;
+  width: 105px;
+}
+
+.outer-eye {
+  display: inline-block;
+  position: relative;
+  background: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.outer-eye-2 {
+  left: 30px;
+}
+
+.inner-eye {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #4056f4;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: shift 3s infinite;
+}
+
+@keyframes shift {
+  50% {
+    transform: translateX(-7px);
+  }
+  75% {
+    transform: translateY(-11px) translateX(-2px);
+  }
 }
