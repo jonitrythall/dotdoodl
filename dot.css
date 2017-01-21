@@ -24,7 +24,7 @@ span {
 
 .header,
 .main {
-  padding: 1.3em;
+  padding: 2em;
 }
 
 .main {
@@ -35,7 +35,6 @@ span {
 
 .header {
   background: #8000ff;
-  margin-bottom: 30px;
 }
 
 .logo {
@@ -142,4 +141,15 @@ a:hover {
 /* CodePen */
 #rerun-button {
   display: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    font-size: .8em;
+  }
+  .header,
+  .main {
+    padding: 1em;
+  }
 }
