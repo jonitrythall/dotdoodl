@@ -1,3 +1,4 @@
+/* Index page */
 body {
   margin: 0;
   color: #4056f4;
@@ -30,6 +31,10 @@ main {
   font-size: 1.6em;
   text-align: center;
   line-height: 1.25;
+}
+
+h3 {
+  color: #8000ff;
 }
 
 a {
@@ -72,10 +77,11 @@ a:hover {
 }
 
 .footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
   background: #4056f4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .contain-eyes {
@@ -115,4 +121,14 @@ a:hover {
   75% {
     transform: translateY(-11px) translateX(-2px);
   }
+}
+
+/* Kids page */
+.main-reference {
+  text-align: left;
+}
+
+/* CodePen */
+#rerun-button {
+  display: none;
 }
