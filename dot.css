@@ -1,7 +1,9 @@
 /* Index page */
-body {
+body,
+html  {
   margin: 0;
   color: #4056f4;
+  height: 100%;
 }
 
 span {
@@ -10,12 +12,25 @@ span {
 }
 
 .site-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-family: 'Lato', sans-serif;
 }
 
 .header,
 .main {
   padding: 1.3em;
+}
+
+.main {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .header {
@@ -78,10 +93,6 @@ a:hover {
 
 .footer {
   background: #4056f4;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .contain-eyes {
